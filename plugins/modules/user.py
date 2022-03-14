@@ -142,10 +142,15 @@ message:
 """
 
 import json
+<<<<<<< HEAD
 import ast
 from ansible.module_utils.basic import AnsibleModule
 from ansible.module_utils.urls import fetch_url
 from typing import NamedTuple, List
+=======
+from ansible.module_utils.basic import AnsibleModule
+from ansible.module_utils.urls import fetch_url
+>>>>>>> 273cecbe4b8bf7a772140e4de96f44833462f464
 
 
 def exit_failed(module, msg):
